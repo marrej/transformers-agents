@@ -9,7 +9,8 @@ class PipelineSingleton {
 
     static task = 'text-generation';
     // text-generation https://huggingface.co/models?pipeline_tag=text-generation&library=transformers.js
-    static model = 'HuggingFaceTB/SmolLM2-1.7B-Instruct';
+    // static model = 'HuggingFaceTB/SmolLM2-1.7B-Instruct';
+    static model = 'Xenova/distilgpt2';
     static instance = null;
 
     // NOTE: Requires a `model_quantized.onnx` file to be present otherwie it won't run
